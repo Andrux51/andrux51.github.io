@@ -1,0 +1,105 @@
+#calcThumb {
+  position:absolute;
+  top:55px;
+  left:747px;
+  text-align:center;
+  cursor:pointer;
+}
+#calcThumb > img {
+  border-radius:3px;
+  border:2px ridge #777;
+}
+
+#calculator {
+  width:180px;
+  border:3px outset #777;
+  border-radius:3px;
+  padding:10px 8px 8px 10px;
+  background:#444;
+}
+#calculator .btn {
+  width:22.75%;
+  margin-bottom:3px;
+  padding:4px 0 4px 0;
+  font-weight:bold;
+  outline:0 none;
+}
+#calculator .disabled {
+  background:#444;
+  border:none;
+}
+#calculator .number {
+  background:#cde;
+  border-color:#def;
+  border-style:outset;
+}
+#calculator .number:hover {
+  background:#abc;
+}
+#calculator .form-control {
+  width:99%;
+  margin-bottom:-10px;
+  cursor:default;
+  resize:none;
+  background:#aDc69C;
+  border:1px outset #888;
+  font-family:'lucida console',monospace;
+  color:#000;
+  font-weight:bold;
+  text-align:right;
+  overflow:hidden;
+  box-shadow: none;
+}
+#calculator .form-control::-webkit-input-placeholder { color:#000; }
+#calculator .form-control::-moz-placeholder { color:#000; }
+#calculator .form-control:-ms-input-placeholder { color:#000; }
+#calculator .form-controlinput:-moz-placeholder { color:#000; }
+
+.modal {
+  width:220px;
+  overflow:hidden;
+  outline:0 none;
+}
+.modal-body {
+  padding:6px;
+}
+.modal-dialog {
+  width:214px;
+}
+.modal.fade {
+  left: 583px;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+          transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+.modal-header {
+  background-color:#d9534f;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  padding:6px;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+}
+
+.spacer {
+  font-size:6px;
+}
+#history.form-control {
+  padding:0;
+  width:180px;
+}
+.list-group-item {
+  padding:2px 4px 2px 4px;
+}
+.btn-hist {
+  width:180px;
+}
+.dropdown-menu {
+  width:180px;
+}
+.sup {
+  font-size:75%;
+  top:20%;
+}

@@ -1,0 +1,47 @@
+{
+	"0": {
+		"id": 0,
+		"name": "Cannon",
+		"image": "cannon.png",
+		"health": {
+			"current": 8,
+			"max": 8
+		},
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"xp": 2,
+		"money": 2
+	},
+	"1": {
+		"id": 1,
+		"name": "Soldier 1",
+		"image": "soldier1.png",
+		"health": {
+			"current": 20,
+			"max": 20
+		},
+		"damage": {
+			"min": 4,
+			"max": 8
+		},
+		"xp": 4,
+		"money": 4
+	},
+	"2": {
+		"id": 2,
+		"name": "Soldier 2",
+		"image": "soldier2.png",
+		"health": {
+			"current": 30,
+			"max": 30
+		},
+		"damage": {
+			"min": 6,
+			"max": 7
+		},
+		"xp": 6,
+		"money": 6
+	}
+}

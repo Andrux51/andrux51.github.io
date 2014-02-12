@@ -1,0 +1,65 @@
+<div id="calcThumb">
+    <a data-toggle="modal" data-target="#calcModal" ng-click="calcClear()">
+      <img src="http://img34.imageshack.us/img34/5222/orxn.png"/>
+    </a>
+</div>
+
+<div class="modal fade" id="calcModal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="false" ng-init="histDisable = true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" style="padding:3px 4px 0 0;">&times;</button>
+        <p class="modal-title">Calculator</p>
+      </div>
+      <div class="modal-body">
+      
+        <div id="calculator">
+          <textarea id="calcScreen" class="form-control" rows="1" maxlength="14" placeholder="0" wrap="off"></textarea>
+          <br />
+          <button type="button" class="btn btn-default" ng-click="calcBackspace()"><i class="icon icon-long-arrow-left"></i></button>
+          <button type="button" class="btn btn-default disabled">&nbsp;</button>
+          <button type="button" class="btn btn-danger" ng-click="calcClearAll()">CE</button>
+          <button type="button" class="btn btn-danger" ng-click="calcClear()">C</button>
+          <br />
+          <button type="button" class="btn btn-default" ng-click="calcAddPi()">&pi;</button>
+          <button type="button" class="btn btn-default" ng-click="calcSqrt()">&radic;</button>
+          <button type="button" class="btn btn-default" ng-click="calcSquare()">x<sup class="sup">2</sup></button>
+          <button type="button" class="btn btn-default" ng-click="calcAddInput('^')">x<sup class="sup" style="top:-2px;">y</sup></button>
+          <br />
+          <button type="button" class="btn btn-default" ng-click="calcAddInput('%')">%</button>
+          <button type="button" class="btn btn-default" ng-click="calcAddInput('(')">(</button>
+          <button type="button" class="btn btn-default" ng-click="calcAddInput(')')">)</button>
+          <button type="button" class="btn btn-primary" ng-click="calcAddInput('/')">&divide;</button>
+          <br />
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('7')">7</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('8')">8</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('9')">9</button>
+          <button type="button" class="btn btn-primary" ng-click="calcAddInput('*')">&times;</button>
+          <br />
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('4')">4</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('5')">5</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('6')">6</button>
+          <button type="button" class="btn btn-primary" ng-click="calcAddInput('-')">&minus;</button>
+          <br />
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('1')">1</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('2')">2</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('3')">3</button>
+          <button type="button" class="btn btn-primary" ng-click="calcAddInput('+')">+</button>
+          <br />
+          <button type="button" class="btn btn-default" ng-click="calcAddInput('.')">.</button>
+          <button type="button" class="btn btn-default number" ng-click="calcAddInput('0')">0</button>
+          <button type="button" class="btn btn-default" ng-click="calcInputNegative()">&plusmn;</button>
+          <button type="button" class="btn btn-primary" ng-click="calcEval()">=</button>
+          <br />
+        </div>
+        <div class="spacer">&nbsp;</div>
+        <div class="dropdown">
+          <a class="btn btn-primary btn-hist" data-toggle="dropdown" ng-disabled="histDisable">See Calculator History</a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" id="history">
+          </ul>
+        </div>
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

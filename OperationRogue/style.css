@@ -1,0 +1,63 @@
+* {
+	cursor:default;
+}
+
+#ui-bar {
+	position:absolute;
+	width:100%;
+	height:64px;
+	z-index:100;
+	background:#aaa;
+}
+#viewport {
+	position:absolute;
+	width:1024px;
+	height:768px;
+	background:blue;
+}
+#tilearea {
+	position:absolute;
+	top:64px;
+	width:100%;
+	height:calc(100% - 64px);
+	overflow:hidden;
+	background:black;
+}
+
+#player {
+	position:absolute;
+	background-image:url('images/alien.png');
+	width:32px;
+	height:32px;
+	left:32px;
+	top:96px;
+}
+#player-healthBar {
+	position:absolute;
+	left:31px;
+	top:31px;
+	width:100px;
+	height:16px;
+	background:#FFAAAA;
+	color:white;
+	font-size:10px;
+	border:1px solid white;
+	padding-left:100px;
+}
+#pHealthFill {
+	position:absolute;
+	left:32px;
+	top:32px;
+	width:100px;
+	height:14px;
+	background:#AAFFAA;
+	color:white;
+	font-size:10px;
+}
+
+.enemy {
+	position:absolute;
+	width:32px;
+	height:32px;
+	opacity:0;
+}

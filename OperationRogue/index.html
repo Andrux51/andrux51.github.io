@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css" />
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="//cdn.jsdelivr.net/underscorejs/1.5.1/underscore-min.js"></script>
+
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="tilemap.css" />
+	</head>
+
+	<body>
+		<div id="viewport">
+			<div id="ui-bar">
+				<div id="player-healthBar">&nbsp;100%</div>
+				<div id="pHealthFill"></div>
+				<div id="score">Experience: <span id="score-num">0</span></div>
+				<div id="money">Money: <span id="money-num">0</span></div>
+			</div>
+			<div id="tilearea"></div>
+			<div id="player"></div>
+			<div id="enemies"></div>
+		</div>
+
+		<script src="initialize.js"></script>
+		<script src="player.js"></script>
+		<script src="enemy.js"></script>
+		<script src="controls.js"></script>
+		<script src="game.js"></script>
+	</body>
+
+</html>

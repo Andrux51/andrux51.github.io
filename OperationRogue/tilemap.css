@@ -1,0 +1,12 @@
+.tile {
+	display:inline-block;
+	width:32px;
+	height:32px;
+	color:white;
+	text-align:center;
+	line-height:32px;
+	opacity:0;
+}
+
+.tile-1 {	background:url('images/floortile-rivet.png'); }
+.tile-2 {	background:url('images/floortile-glass.png'); }
