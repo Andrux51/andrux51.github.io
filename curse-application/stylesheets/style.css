@@ -56,15 +56,18 @@ p, span {
   padding-bottom: 6px;
   color: white;
   border-top: 1px solid #323232;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 #nav-links .dropdown-menu li > a:hover {
   background: #2b2b2b;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 #nav-links > li > a {
   font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
   line-height: 40px;
   vertical-align: middle;
   font-weight: bold;
@@ -73,12 +76,17 @@ p, span {
   border-right: 1px solid #424242;
   padding: 20px;
 }
-/* line 66, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 #nav-links > li > a:focus {
-  background-color: #222;
+  background: #222;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
+.dropdown.open > a {
+  background: #222 !important;
+}
+
+/* line 78, ../sass/style.scss */
 .navbar-collapse.collapse.in ul {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF363636', endColorstr='#FF222222');
@@ -89,7 +97,7 @@ p, span {
   background-image: linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
 }
 
-/* line 76, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 #nav-border {
   height: 1px;
   *zoom: 1;
@@ -101,48 +109,48 @@ p, span {
   background-image: linear-gradient(left, rgba(70, 70, 70, 0) 0%, #464646 50%, rgba(70, 70, 70, 0) 100%);
 }
 
-/* line 81, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .navbar-brand {
   padding-left: 0;
 }
 
-/* line 85, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #panel-section {
   padding-top: 20px;
 }
-/* line 87, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 #panel-section .panel {
   border: none;
 }
-/* line 90, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 #panel-section .panel-heading {
   background: black;
   border: none;
 }
-/* line 93, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 #panel-section .panel-heading a {
   color: white;
 }
-/* line 95, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 #panel-section .panel-heading a:hover {
   text-decoration: none;
 }
-/* line 99, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 #panel-section .panel-heading i {
   height: 16px;
   font-size: 12px;
   color: white;
   vertical-align: middle;
 }
-/* line 106, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 #panel-section .panel-heading > h3 {
   margin: 0;
 }
-/* line 109, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 #panel-section .panel-body {
   background: #cccccc;
 }
-/* line 111, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 #panel-section .panel-body p {
   color: black;
 }

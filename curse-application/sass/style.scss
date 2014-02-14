@@ -48,6 +48,8 @@ p,span {
 			padding-bottom:6px;
 			color: white;
 			border-top: 1px solid #323232;
+			font-family:$roboto;
+			font-weight:bold;
 			&:hover {
 				background:#2b2b2b;
 			}
@@ -56,6 +58,7 @@ p,span {
 }
 #nav-links>li>a {
 	font-family: $roboto;
+	font-size:1.2em;
 	line-height: 40px;
 	vertical-align: middle;
 	font-weight: bold;
@@ -64,8 +67,11 @@ p,span {
 	border-right: 1px solid #424242;
 	padding: 20px;
 	&:focus {
-		background-color:#222;
+		background:#222;
 	}
+}
+.dropdown.open>a {
+	background:#222 !important;
 }
 
 
