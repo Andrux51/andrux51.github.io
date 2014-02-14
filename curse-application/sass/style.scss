@@ -1,0 +1,115 @@
+@import "compass";
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700,100italic,400italic,700italic);
+
+$roboto: 'Roboto',sans-serif;
+$containerColor: #333;
+$containerHeader: #bbb;
+$bodyColor: #222;
+$dropdownOption: #222;
+$dropdownHighlight: #2b2b2b;
+$blockHeader: #000;
+$blockBody: #ccc;
+
+#main_content {
+	background-color: $containerColor;
+}
+body {
+	padding-top:80px;
+	background-color: $bodyColor;
+}
+h1,h2,h3,h4,h5,h6 {
+	color:white;
+	font-family: $roboto;
+	font-weight:100;
+}
+p,span {
+	color:white;
+}
+
+.navbar {
+	height:80px;
+	margin-bottom:0;
+	border-bottom:none;
+	background-color: #363636; // Old browsers
+	@include filter-gradient(#363636, #222222, vertical); // IE6-9
+	@include background-image(linear-gradient(top,  #363636 0%,#323232 51%,#222222 100%));
+}
+#nav-links {
+	border-left:1px solid #424242;
+	border-right:1px solid #181818;
+	padding-left:1px;
+	.dropdown-menu {
+		padding: 0;
+		background-color: #222;
+		border: 1px solid #181818;
+		border-top: none;
+		li>a {
+			padding-top:6px;
+			padding-bottom:6px;
+			color: white;
+			border-top: 1px solid #323232;
+			&:hover {
+				background:#2b2b2b;
+			}
+		}
+	}
+}
+#nav-links>li>a {
+	font-family: $roboto;
+	line-height: 40px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: white !important;
+	border-left: 1px solid #181818;
+	border-right: 1px solid #424242;
+	padding: 20px;
+	&:focus {
+		background-color:#222;
+	}
+}
+
+
+.navbar-collapse.collapse.in ul {
+	@include filter-gradient(#363636, #222222, vertical); // IE6-9
+	@include background-image(linear-gradient(top,  #363636 0%,#323232 51%,#222222 100%));
+}
+#nav-border {
+	height:1px;
+	@include filter-gradient(#464646, #464646, horizontal); // IE6-9
+	@include background-image(linear-gradient(left,  rgba(70,70,70,0) 0%,rgba(70,70,70,1) 50%,rgba(70,70,70,0) 100%));
+}
+.navbar-brand {
+	padding-left:0;
+}
+
+#panel-section {
+	padding-top:20px;
+	.panel {
+		border:none;
+	}
+	.panel-heading {
+		background:$blockHeader;
+		border:none;
+		a {
+			color:white;
+			&:hover {
+				text-decoration:none;
+			}
+		}
+		i {
+			height: 16px;
+			font-size: 12px;
+			color: white;
+			vertical-align: middle;
+		}
+	}
+	.panel-heading>h3 {
+		margin:0;
+	}
+	.panel-body {
+		background:$blockBody;
+		p {
+			color:black;
+		}
+	}
+}

@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700,100italic,400italic,700italic);
+/* line 13, ../sass/style.scss */
+#main_content {
+  background-color: #333333;
+}
+
+/* line 16, ../sass/style.scss */
+body {
+  padding-top: 80px;
+  background-color: #222222;
+}
+
+/* line 20, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+/* line 25, ../sass/style.scss */
+p, span {
+  color: white;
+}
+
+/* line 29, ../sass/style.scss */
+.navbar {
+  height: 80px;
+  margin-bottom: 0;
+  border-bottom: none;
+  background-color: #363636;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF363636', endColorstr='#FF222222');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #363636), color-stop(51%, #323232), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+  background-image: -moz-linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+  background-image: -o-linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+  background-image: linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+}
+
+/* line 37, ../sass/style.scss */
+#nav-links {
+  border-left: 1px solid #424242;
+  border-right: 1px solid #181818;
+  padding-left: 1px;
+}
+/* line 41, ../sass/style.scss */
+#nav-links .dropdown-menu {
+  padding: 0;
+  background-color: #222;
+  border: 1px solid #181818;
+  border-top: none;
+}
+/* line 46, ../sass/style.scss */
+#nav-links .dropdown-menu li > a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  border-top: 1px solid #323232;
+}
+/* line 51, ../sass/style.scss */
+#nav-links .dropdown-menu li > a:hover {
+  background: #2b2b2b;
+}
+
+/* line 57, ../sass/style.scss */
+#nav-links > li > a {
+  font-family: "Roboto", sans-serif;
+  line-height: 40px;
+  vertical-align: middle;
+  font-weight: bold;
+  color: white !important;
+  border-left: 1px solid #181818;
+  border-right: 1px solid #424242;
+  padding: 20px;
+}
+/* line 66, ../sass/style.scss */
+#nav-links > li > a:focus {
+  background-color: #222;
+}
+
+/* line 72, ../sass/style.scss */
+.navbar-collapse.collapse.in ul {
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF363636', endColorstr='#FF222222');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #363636), color-stop(51%, #323232), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+  background-image: -moz-linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+  background-image: -o-linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+  background-image: linear-gradient(top, #363636 0%, #323232 51%, #222222 100%);
+}
+
+/* line 76, ../sass/style.scss */
+#nav-border {
+  height: 1px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF464646', endColorstr='#FF464646');
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(70, 70, 70, 0)), color-stop(50%, #464646), color-stop(100%, rgba(70, 70, 70, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(70, 70, 70, 0) 0%, #464646 50%, rgba(70, 70, 70, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(70, 70, 70, 0) 0%, #464646 50%, rgba(70, 70, 70, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(70, 70, 70, 0) 0%, #464646 50%, rgba(70, 70, 70, 0) 100%);
+  background-image: linear-gradient(left, rgba(70, 70, 70, 0) 0%, #464646 50%, rgba(70, 70, 70, 0) 100%);
+}
+
+/* line 81, ../sass/style.scss */
+.navbar-brand {
+  padding-left: 0;
+}
+
+/* line 85, ../sass/style.scss */
+#panel-section {
+  padding-top: 20px;
+}
+/* line 87, ../sass/style.scss */
+#panel-section .panel {
+  border: none;
+}
+/* line 90, ../sass/style.scss */
+#panel-section .panel-heading {
+  background: black;
+  border: none;
+}
+/* line 93, ../sass/style.scss */
+#panel-section .panel-heading a {
+  color: white;
+}
+/* line 95, ../sass/style.scss */
+#panel-section .panel-heading a:hover {
+  text-decoration: none;
+}
+/* line 99, ../sass/style.scss */
+#panel-section .panel-heading i {
+  height: 16px;
+  font-size: 12px;
+  color: white;
+  vertical-align: middle;
+}
+/* line 106, ../sass/style.scss */
+#panel-section .panel-heading > h3 {
+  margin: 0;
+}
+/* line 109, ../sass/style.scss */
+#panel-section .panel-body {
+  background: #cccccc;
+}
+/* line 111, ../sass/style.scss */
+#panel-section .panel-body p {
+  color: black;
+}
