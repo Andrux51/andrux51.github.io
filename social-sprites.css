@@ -1,0 +1,46 @@
+.sprite-32 {
+	width:32px;
+	height:32px;
+	background:url('flaticons-32.png') no-repeat;
+	display:inline-block;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+}
+.sprite-32:hover {
+	-webkit-filter:none;
+	-moz-filter:none;
+	filter:none;
+}
+.sprite-32-facebook { background-position: 0 0; }
+.sprite-32-twitter { background-position: -32px 0; }
+.sprite-32-pinterest { background-position: -64px 0; }
+.sprite-32-gplus { background-position: -96px 0; }
+.sprite-32-linkedin { background-position: -128px 0; }
+.sprite-32-instagram { background-position: -160px 0; }
+.sprite-32-rss { background-position: -192px 0; }
+.sprite-32-youtube { background-position: -224px 0; }
+.sprite-32-blogger { background-position: -256px 0; }
+.sprite-32-moz { background-position: -288px 0; }
+.sprite-32-skype { background-position: -320px 0; }
+.sprite-32-wordpress { background-position: -352px 0; }
+.sprite-32-foursquare { background-position: -384px 0; }
+.sprite-32-mail { background-position: -416px 0; }
+.sprite-32-contact { background-position: -448px 0; }
+.sprite-32-fade-facebook { background-position: 0 -32px; }
+.sprite-32-fade-twitter { background-position: -32px -32px; }
+.sprite-32-fade-pinterest { background-position: -64px -32px; }
+.sprite-32-fade-gplus { background-position: -96px -32px; }
+.sprite-32-fade-linkedin { background-position: -128px -32px; }
+.sprite-32-fade-instagram { background-position: -160px -32px; }
+.sprite-32-fade-rss { background-position: -192px -32px; }
+.sprite-32-fade-youtube { background-position: -224px -32px; }
+.sprite-32-fade-blogger { background-position: -256px -32px; }
+.sprite-32-fade-moz { background-position: -288px -32px; }
+.sprite-32-fade-skype { background-position: -320px -32px; }
+.sprite-32-fade-wordpress { background-position: -352px -32px; }
+.sprite-32-fade-foursquare { background-position: -384px -32px; }
+.sprite-32-fade-mail { background-position: -416px -32px; }
+.sprite-32-fade-contact { background-position: -448px -32px; }
