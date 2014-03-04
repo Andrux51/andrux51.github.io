@@ -1,0 +1,9 @@
+.generation-cell {
+	display:inline-block;
+	background:url('amoeba-bw.jpg') no-repeat;
+	min-height:60px;
+	min-width:64px;
+}
+.alive {
+	background-image:url('amoeba.gif');
+}
