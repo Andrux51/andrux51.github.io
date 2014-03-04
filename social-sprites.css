@@ -1,7 +1,7 @@
 .sprite-32 {
 	width:32px;
 	height:32px;
-	background:url('flaticons-32.png') no-repeat;
+	background:url('flaticons-32-new.png') no-repeat;
 	display:inline-block;
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
@@ -29,6 +29,7 @@
 .sprite-32-foursquare { background-position: -384px 0; }
 .sprite-32-mail { background-position: -416px 0; }
 .sprite-32-contact { background-position: -448px 0; }
+.sprite-32-github { background-position: -480px 0; }
 .sprite-32-fade-facebook { background-position: 0 -32px; }
 .sprite-32-fade-twitter { background-position: -32px -32px; }
 .sprite-32-fade-pinterest { background-position: -64px -32px; }
@@ -44,3 +45,4 @@
 .sprite-32-fade-foursquare { background-position: -384px -32px; }
 .sprite-32-fade-mail { background-position: -416px -32px; }
 .sprite-32-fade-contact { background-position: -448px -32px; }
+.sprite-32-fade-github { background-position: -480px -32px; }
