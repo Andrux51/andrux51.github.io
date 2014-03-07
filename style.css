@@ -62,16 +62,22 @@ img {
 	filter:none;
 }
 #calc-thumb {
-	background-image:url('eo-calc.jpg');
+	background-image:url('calc-thumbnail.png');
 }
 #alien-thumb {
 	background-image:url('alien-dog-sketch-color.jpg');
 }
 #leml-thumb {
-	background-image:url('leml-brand.jpg');
+	background-image:url('leml-thumbnail.png');
+}
+#curse-thumb {
+	background-image:url('curse-thumbnail.png');
+}
+#gol-thumb {
+	background-image:url('gol-thumbnail.png');
 }
 
-p,span,a {
+p,span {
 	font-family: 'Arvo',serif;
 	color:#444;
 }
