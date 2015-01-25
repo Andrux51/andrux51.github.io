@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - Little Elk Meadows Lodge</title>
+<meta name="Keywords" content="estes,park,colorado,lyons,bed,breakfast,lodging,lodge,accommodations,bed and breakfast,little elk meadows,little,elk,meadows,wedding,weddings,marriage,reception" />
+<meta name="Description" content="A Lyons, Colorado bed &amp; breakfast in the Rocky Mountain National Park area." />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" media="all" href="reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="stylesheet.css" />
+
+<!-- Lightbox2 -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="lightbox/lightbox.js"></script>
+<link rel="stylesheet" href="lightbox/lightbox.css" />
+<!-- End Lightbox2 -->
+
+<!-- Google Maps API Functions -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAHMa7GZl9yyr_z9V1QtY4khqpujU1eOE&amp;sensor=true&amp;libraries=places"></script>
+<script>
+   	function initialize() {
+   		var leml_location = new google.maps.LatLng(40.276138, -105.358775);
+		var mapOptions = { zoom: 15, center: leml_location, mapTypeId: google.maps.MapTypeId.ROADMAP };
+		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		var marker = new google.maps.Marker({
+			position: leml_location,
+			map: map,
+			title: "Little Elk Meadows Lodge",
+			animation: google.maps.Animation.DROP
+		});
+	}
+	
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- End Google Maps API Functions -->
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=154420494611643";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<?php include('include/headernav.php'); ?>
+	
+	<div class="container_12">
+		<div class="grid_12"><h2 align="center">Contact the Bed &amp; Breakfast</h2></div>
+		<div class="grid_5 textbox">
+			<p>
+				<b>Office Hours</b> 
+				<br />Monday through Friday, 8:30 AM to 5:30 PM
+			</p>
+			<p>
+				<b>Phone</b>
+				<br /><a href="tel:13038236161">(303) 823-6161</a>
+			</p>
+			<p>
+				<b>Email</b>
+				<br /><a href="mailto:mary@littleelkmeadowslodge.com" target="_blank">mary@littleelkmeadowslodge.com</a>
+			</p>
+			<p>
+				<b>Address</b>
+				<br />Little Elk Meadows Lodge
+				<br />12307 E US Hwy 36 / N. Saint Vrain Drive
+				<br />Lyons, Colorado 80540
+			</p>
+			<p style="display:inline">
+				<a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.littleelkmeadowslodge.com%2F&amp;media=http%3A%2F%2Fwww.littleelkmeadowslodge.com%2Fpics%2Fleml-brand.jpg&amp;description=Little%20Elk%20Meadows%20Lodge" data-pin-do="buttonPin" data-pin-config="above"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
+				<div class="fb-like" data-href="https://www.facebook.com/pages/Little-Elk-Meadows-Lodge/106248709458104" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false"></div>
+			</p>
+		</div>
+		<div class="grid_7">
+			<b>Map of the area</b><br />
+	    	<div id="map-canvas" style="width:500px; height:300px;"></div>
+			<span style="font-size:8px;">Little Elk Meadows Lodge is a bed and breakfast lodging near Estes Park, Colorado.</span>
+		</div>
+	</div>
+<?php include('include/footer.php'); ?>
+
+<script>
+(function(d){
+  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+  p.type = 'text/javascript';
+  p.async = true;
+  p.src = '//assets.pinterest.com/js/pinit.js';
+  f.parentNode.insertBefore(p, f);
+}(document));
+</script>
+
+</body>
+</html>

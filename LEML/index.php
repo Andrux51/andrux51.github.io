@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lodging Near Lyons &amp; Estes Park - Little Elk Meadows Lodge</title>
+<meta name="Keywords" content="estes,park,colorado,lyons,bed,breakfast,lodging,lodge,accommodations,bed and breakfast,little elk meadows,little,elk,meadows,wedding,weddings,marriage,reception" />
+<meta name="Description" content="A Lyons, Colorado bed &amp; breakfast near Estes Park in the Rocky Mountain National Park area." />
+<link rel="icon" type="image/png" href="favicon.ico" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" media="all" href="reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="stylesheet.css" />
+
+<!-- Lightbox2 -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="lightbox/lightbox.js"></script>
+<link rel="stylesheet" href="lightbox/lightbox.css" />
+<!-- End Lightbox2 -->
+
+</head>
+<body>
+<?php include('include/headernav.php'); ?>
+
+<div class="container_12">
+	<div class="grid_12" align=center>
+		<img src="pics/bnb-ataglance.jpg">
+	</div>
+</div>
+<div class="container_12">
+	<div class="grid_12 textbox">
+		<p><h1 align=center>About the B&amp;B</h1></p>
+		<p>
+			Little Elk Meadows Lodge is a Lyons, Colorado bed &amp; breakfast lodging nestled along the edge of scenic Rocky Mountain National Park.
+			We're <a href="contact.php">located</a> about an hour from downtown Denver, and only minutes from Estes Park.
+		</p>
+		<p>
+			We are family and pet friendly, so don't be afraid bring them along!
+			When it's time to get some exercise, your pets will love our fenced yard areas.
+			We offer pet sitting for you while you enjoy a trip into town for shopping and dining at many locally owned establishments.
+		</p>
+		<p>
+			We offer several fun <a href="packages.php">packages</a> for our guests, or you can immerse yourself
+			in the surrounding area to find a number of activities including hiking, horseback riding, birdwatching, fishing, and more.
+			We would be happy to help you plan your vacation while you stay with us.
+		</p>
+		<p>
+			Breakfast is made fresh daily in our fully-equipped kitchen and served when you're ready in the morning.
+			We enjoy cooking and like to provide a different main dish each day served with fresh fruit, coffee, tea, milk, and juice.
+			We can accommodate special diets, so please inform us of your dietary needs when you book your room.
+			If you prefer to cook your own meals, we're happy to step aside and let you show off your culinary skills.
+		</p>
+		<p>
+			Behind the house, we have a sitting area with a fire pit that we can light at your request, and we can even provide ingredients for making s'mores.
+			Feel free to share stories or have a sing-along around the fire!
+		</p>
+		<p>
+			If you're curious about something that we haven't covered here, please <a href="contact.php">contact us</a> right away so we can answer all your questions!
+		</p>
+	</div>
+</div>
+<div class="container_12"><div class="grid_12 divider"></div></div>
+<div class="container_12">
+	<div class="grid_4">
+		<img src="pics/americangothic.jpg" style="border:1px solid #ddd; box-shadow:0px 4px 10px #505050;" />
+	</div>
+	<div class="grid_8 textbox">
+		<p><h1 align=center>Our History</h1></p>
+		<p>
+			We're Mary and Randy Caner, longtime residents of the area. 
+			Our lovely home was built in 1996. In the 1970s this area was known as Little Elk Meadows before being renamed to Pinewood Springs,
+			and we decided that we wanted to name our lodge in a way that honored the local history. 
+		</p>
+		<p>
+			We officially opened for business in August 2010, and have really enjoyed getting the chance to share our home with many wonderful guests.
+			We pride ourselves in taking great care of our guests, making them feel at home from the moment they arrive.
+			We look forward to making our mark on the local history for years to come.
+		</p>
+	</div>
+</div>
+
+<?php include('include/footer.php'); ?>
+</body>
