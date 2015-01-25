@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="generation">
 <head>
 	<title>Talkin' Bout My Generation</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body onload="initialize()">
-	<div id="generation-grid"></div>
-	<ul id="generation-stats"></ul>
+<body class="ng-cloak" ng-cloak>
+    <div ng-view></div>
 
-	<script src="lib/jquery-1.11.0.min.js"></script>
-	<script src="script.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
