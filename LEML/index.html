@@ -7,10 +7,10 @@
 <link rel="icon" type="image/png" href="favicon.ico" />
 
 <!-- Stylesheets -->
-<link rel="stylesheet" type="text/css" media="all" href="reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="960.css" />
-<link rel="stylesheet" type="text/css" media="all" href="text.css" />
-<link rel="stylesheet" type="text/css" media="all" href="stylesheet.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/stylesheet.css" />
 
 <!-- Lightbox2 -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -20,7 +20,23 @@
 
 </head>
 <body>
-<?php include('include/headernav.php'); ?>
+<div class="container_12">
+	<img src="pics/leml-logo.jpg" />
+</div>
+<div class="container_12">
+	<div class="grid_12 navbar" align=center>
+		<div class="divider"></div>
+		<ul>
+			<li><a href="index.html">About the B&amp;B</a></li>
+			<li><a href="rooms.html">Rooms &amp; Rates</a></li>
+			<li><a href="packages.html">Activity Packages</a></li>
+			<li><a href="weddings.html">Weddings</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+		<div class="divider"></div>
+	</div>
+</div>
 
 <div class="container_12">
 	<div class="grid_12" align=center>
@@ -32,7 +48,7 @@
 		<p><h1 align=center>About the B&amp;B</h1></p>
 		<p>
 			Little Elk Meadows Lodge is a Lyons, Colorado bed &amp; breakfast lodging nestled along the edge of scenic Rocky Mountain National Park.
-			We're <a href="contact.php">located</a> about an hour from downtown Denver, and only minutes from Estes Park.
+			We're <a href="contact.html">located</a> about an hour from downtown Denver, and only minutes from Estes Park.
 		</p>
 		<p>
 			We are family and pet friendly, so don't be afraid bring them along!
@@ -40,7 +56,7 @@
 			We offer pet sitting for you while you enjoy a trip into town for shopping and dining at many locally owned establishments.
 		</p>
 		<p>
-			We offer several fun <a href="packages.php">packages</a> for our guests, or you can immerse yourself
+			We offer several fun <a href="packages.html">packages</a> for our guests, or you can immerse yourself
 			in the surrounding area to find a number of activities including hiking, horseback riding, birdwatching, fishing, and more.
 			We would be happy to help you plan your vacation while you stay with us.
 		</p>
@@ -55,7 +71,7 @@
 			Feel free to share stories or have a sing-along around the fire!
 		</p>
 		<p>
-			If you're curious about something that we haven't covered here, please <a href="contact.php">contact us</a> right away so we can answer all your questions!
+			If you're curious about something that we haven't covered here, please <a href="contact.html">contact us</a> right away so we can answer all your questions!
 		</p>
 	</div>
 </div>
@@ -79,5 +95,5 @@
 	</div>
 </div>
 
-<?php include('include/footer.php'); ?>
+<div class="container_12"><div class="grid_12 divider"></div></div>
 </body>

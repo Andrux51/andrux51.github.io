@@ -6,10 +6,10 @@
 <meta name="Description" content="A Lyons, Colorado bed &amp; breakfast in the Rocky Mountain National Park area." />
 
 <!-- Stylesheets -->
-<link rel="stylesheet" type="text/css" media="all" href="reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="960.css" />
-<link rel="stylesheet" type="text/css" media="all" href="text.css" />
-<link rel="stylesheet" type="text/css" media="all" href="stylesheet.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/stylesheet.css" />
 
 <!-- Lightbox2 -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -19,7 +19,23 @@
 
 </head>
 <body>
-<?php include('include/headernav.php'); ?>
+<div class="container_12">
+	<img src="pics/leml-logo.jpg" />
+</div>
+<div class="container_12">
+	<div class="grid_12 navbar" align=center>
+		<div class="divider"></div>
+		<ul>
+			<li><a href="index.html">About the B&amp;B</a></li>
+			<li><a href="rooms.html">Rooms &amp; Rates</a></li>
+			<li><a href="packages.html">Activity Packages</a></li>
+			<li><a href="weddings.html">Weddings</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+		<div class="divider"></div>
+	</div>
+</div>
 <div class="container_12">
 	<div class="grid_12 textbox">
 		<h2 align="center">Mountain Weddings</h2>
@@ -104,7 +120,7 @@
 		<h4>Cost: <span style="color:#4191db;">$550</span></h4>
 		<div class="divider"></div>
 		<p><h3>Custom Wedding Package</h3></p>
-		<p>Please <a href="contact.php">contact us</a> if you don't see a package that meets your needs! 
+		<p>Please <a href="contact.html">contact us</a> if you don't see a package that meets your needs! 
 		We are happy to work with you to create your perfect day.</p>
 	</div>
 	<div class="grid_4 bullet">
@@ -112,5 +128,5 @@
 	</div>
 </div>
 
-<?php include('include/footer.php'); ?>
+<div class="container_12"><div class="grid_12 divider"></div></div>
 </body>

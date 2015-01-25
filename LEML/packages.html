@@ -6,10 +6,10 @@
 <meta name="Description" content="A Lyons, Colorado bed &amp; breakfast in the Rocky Mountain National Park area." />
 
 <!-- Stylesheets -->
-<link rel="stylesheet" type="text/css" media="all" href="reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="960.css" />
-<link rel="stylesheet" type="text/css" media="all" href="text.css" />
-<link rel="stylesheet" type="text/css" media="all" href="stylesheet.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/stylesheet.css" />
 
 <!-- Lightbox2 -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -19,13 +19,29 @@
 
 </head>
 <body>
-<?php include('include/headernav.php'); ?>
+<div class="container_12">
+	<img src="pics/leml-logo.jpg" />
+</div>
+<div class="container_12">
+	<div class="grid_12 navbar" align=center>
+		<div class="divider"></div>
+		<ul>
+			<li><a href="index.html">About the B&amp;B</a></li>
+			<li><a href="rooms.html">Rooms &amp; Rates</a></li>
+			<li><a href="packages.html">Activity Packages</a></li>
+			<li><a href="weddings.html">Weddings</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+		<div class="divider"></div>
+	</div>
+</div>
 <div class="container_12">
 	<div class="grid_12 textbox">
 		<h2 align="center">Stay &amp; Play Packages</h2>
 		<p>
 			In addition to lodging, we offer several activity and adventure packages to make your stay at our bed &amp; breakfast more fun!
-			Each package's price will be added on to your <a href="rooms.php">room rate</a>. 
+			Each package's price will be added on to your <a href="rooms.html">room rate</a>. 
 			We also offer crafting retreats for scrapbooking, quilting and jewelry making - contact us for more information on these.
 		</p>	
 	</div>
@@ -110,8 +126,8 @@
 		</h5>
 		<div class="divider"></div>
 		<h4>Half Day Guided Hike and Picnic</h4>
-		<p>(leaving at 9:30 am and returning around 1 pm)
-		Enjoy a half day hike on your choice of several trailheads in this area. 
+		<p>(Leaving at 9:30 am and returning around 1 pm)
+		<br />Enjoy a half day hike on your choice of several trailheads in this area. 
 		We will provide transportation to the trailhead and a picnic lunch. 
 		You will want to dress for hiking and you will need to be in good phyisical condition as some of these hikes are a bit strenuous. 
 		</p>
@@ -129,6 +145,6 @@
 		<img src="pics/packages/hiking.jpg" />
 	</div>
 </div>
-<?php include('include/footer.php'); ?>
+<div class="container_12"><div class="grid_12 divider"></div></div>
 </body>
 </html>

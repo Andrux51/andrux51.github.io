@@ -6,10 +6,10 @@
 <meta name="Description" content="A Lyons, Colorado bed &amp; breakfast in the Rocky Mountain National Park area." />
 
 <!-- Stylesheets -->
-<link rel="stylesheet" type="text/css" media="all" href="reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="960.css" />
-<link rel="stylesheet" type="text/css" media="all" href="text.css" />
-<link rel="stylesheet" type="text/css" media="all" href="stylesheet.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style/stylesheet.css" />
 
 <!-- Lightbox2 -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -19,7 +19,23 @@
 
 </head>
 <body>
-<?php include('include/headernav.php'); ?>
+<div class="container_12">
+	<img src="pics/leml-logo.jpg" />
+</div>
+<div class="container_12">
+	<div class="grid_12 navbar" align=center>
+		<div class="divider"></div>
+		<ul>
+			<li><a href="index.html">About the B&amp;B</a></li>
+			<li><a href="rooms.html">Rooms &amp; Rates</a></li>
+			<li><a href="packages.html">Activity Packages</a></li>
+			<li><a href="weddings.html">Weddings</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+		<div class="divider"></div>
+	</div>
+</div>
 <div class="container_12">
 	<div class="grid_12 textbox">
 		<h2 align="center">Bed &amp; Breakfast Rooms</h2>
@@ -240,6 +256,6 @@
 
 
 
-<?php include('include/footer.php'); ?>
+<div class="container_12"><div class="grid_12 divider"></div></div>
 </body>
 </html>
